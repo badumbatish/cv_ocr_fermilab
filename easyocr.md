@@ -9,4 +9,7 @@ You need
 - A csv file with 2 column, and (n+1) rows, with n being equal to # of training cases and labels
 
 Check out section **dataset** in at https://jaided.ai/easyocr/modelhub/
+
 ## Training
+
+Awaiting reading https://github.com/JaidedAI/EasyOCR/blob/master/custom_model.md
