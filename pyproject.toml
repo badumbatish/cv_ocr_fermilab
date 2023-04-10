@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# [tool.setuptools.packages.find]
+# where = ["src"]
+# include = ["g4blplot"]
+
+[project]
+name = "ocr_fermilab"
+version = "0.0.0"
+authors = [
+  { name="Jasmine Tang", email="tanghocle456@gmail.com" },
+]
+description = "A character recognition thingy for fermilab documentation"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "pytest==7.2.1",
+  "build==0.10.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: Unix"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/badumbatish/cv_ocr_fermilab"
+"Bug Tracker" = "https://github.com/badumbatish/cv_ocr_fermilab/issues"
