@@ -20,7 +20,9 @@ dependencies = [
   "build==0.10.0",
   "trdg==1.8.0",
   "easyocr==1.6.2",
-  "Pillow==9.5.0"
+  "Pillow==9.5.0",
+  "opencv-python==4.5.5.64",
+  
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
